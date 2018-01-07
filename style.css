@@ -1,0 +1,10 @@
+table, th, td
+{
+    margin:10px 0;
+    padding:2px 4px;
+    font:12px Arial;
+}
+th {
+    font-weight:bold;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}

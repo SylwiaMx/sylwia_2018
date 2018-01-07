@@ -1,0 +1,31 @@
+
+   <!DOCTYPE html>
+   <html>
+   <head>
+      <meta charset="UTF-8">
+      <link href="style.css" rel="stylesheet">
+      <script type="text/javascript" src="data.js">
+      </script>
+      <title>Movies</title>
+   </head>
+
+     <body>
+       <div id="showData">
+         <script>showMovies()</script>
+       </div>
+
+       <div>
+
+       </div>
+     <div id="moviesCountersContainer">
+       <p>All: <span class="moviesCounter" id="moviesCounterAll">
+         <script>
+        document.write(.moviesData.length);
+        </script></span></p>
+       <p>Viewed: <span class="moviesCounter" id="moviesCounterSeen"></span></p>
+   </div>
+   <div id="moviesListContainer">
+       <ul id="moviesList"></ul>
+   </div>
+   </body>
+   </html>
